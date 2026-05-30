@@ -1,0 +1,22 @@
+[
+  {
+    "source": "/Users/chao/projects/evolving-memory-system/04_protocols/global-inscope-lock-protocol-v1.md",
+    "dest": "/Users/chao/projects/communication-governance-playbook/imported/evolving-memory-system/04_protocols/global-inscope-lock-protocol-v1.md",
+    "status": "moved"
+  },
+  {
+    "source": "/Users/chao/projects/evolving-memory-system/04_protocols/thread-kickoff-template-v1.md",
+    "dest": "/Users/chao/projects/communication-governance-playbook/imported/evolving-memory-system/04_protocols/thread-kickoff-template-v1.md",
+    "status": "moved"
+  },
+  {
+    "source": "/Users/chao/projects/non-drift-communication-protocol/01_protocol/boundary-confirmation-v1.md",
+    "dest": "/Users/chao/projects/communication-governance-playbook/imported/non-drift-communication-protocol/01_protocol/boundary-confirmation-v1.md",
+    "status": "moved"
+  },
+  {
+    "source": "/Users/chao/projects/non-drift-communication-protocol/01_protocol/mainline-architecture-v1.md",
+    "dest": "/Users/chao/projects/communication-governance-playbook/imported/non-drift-communication-protocol/01_protocol/mainline-architecture-v1.md",
+    "status": "moved"
+  }
+]

@@ -1,0 +1,223 @@
+{
+  "thread_id": "1499796593535221961",
+  "repo": "/Users/chao/projects/communication-governance-playbook",
+  "archive_root": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961",
+  "generated_at": "2026-05-24T23:13:36",
+  "sources": {
+    "session_json_count": 21,
+    "log_extract_count": 4,
+    "related_file_count": 102
+  },
+  "artifacts": [
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260518_150611.json",
+      "kind": "raw-session-json",
+      "bytes": 89055,
+      "sha256": "4c52fdaa00db905eb53d5d57a24dc312e2d2b772ffc46180d2a6e3c523750f02",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260516_232610.json",
+      "kind": "raw-session-json",
+      "bytes": 43122,
+      "sha256": "03c01c3d515c47996d1676b7de3fa8390751ca2f3abc0b39963bdd3bbe37374a",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260518_221927.json",
+      "kind": "raw-session-json",
+      "bytes": 68930,
+      "sha256": "fc0227db3f9391faf50ef4dd6c718d0118752cbfe7105b6765be7e9344661909",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_20260502_005440_4d47bb.json",
+      "kind": "raw-session-json",
+      "bytes": 300055,
+      "sha256": "d116e5cce231a723df96f60b4ecb8161df0691eaee208695e43dfbc843615990",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_20260501_233614_40ce8388.json",
+      "kind": "raw-session-json",
+      "bytes": 307698,
+      "sha256": "0a22a734fdbe29d9be4305a06e8f55ec6a1b7c5d0e51378b67a5d24092d70349",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_20260501_101047_50c2572f.json",
+      "kind": "raw-session-json",
+      "bytes": 441258,
+      "sha256": "e2db66ed5d56677004157bb50930748397d4d2a29e1fc1ad6ea8fb19768e7ff4",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260502_053328.json",
+      "kind": "raw-session-json",
+      "bytes": 47175,
+      "sha256": "c230060594db4b465d8adebcb3857d3d6ecdec1a5dae95a00685ac02b92c2af3",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_20260502_010033_a86e26.json",
+      "kind": "raw-session-json",
+      "bytes": 322196,
+      "sha256": "ca82272878fe31f8fbe0005a4d46ec399de83d42ae74e997ba0258d2c267fbb2",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260503_054257.json",
+      "kind": "raw-session-json",
+      "bytes": 28079,
+      "sha256": "2841b95440013d5875d4d7a439efa064de8b9430114156170c330201c30d4ac4",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_20260501_230437_5911e9.json",
+      "kind": "raw-session-json",
+      "bytes": 423659,
+      "sha256": "58267dddd5dce0d4cd2db3e9a58752ea940de9e8feacb231af3eaeb6a9ca4972",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260504_154457.json",
+      "kind": "raw-session-json",
+      "bytes": 39892,
+      "sha256": "a114b50af076c4931e158e3c1bae54a251556388f584caa140b26c07ebf138d9",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260504_094354.json",
+      "kind": "raw-session-json",
+      "bytes": 30170,
+      "sha256": "2490d8f10aaf5e4adaede4d650ad3455d6d0ac3ea4aa27c3775bc4bc25235fa5",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260502_233826.json",
+      "kind": "raw-session-json",
+      "bytes": 31281,
+      "sha256": "9ec59c03dd271a15a9177bc061ebcb75ac962cefcb6e8263c4c651e4754c742c",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260509_024023.json",
+      "kind": "raw-session-json",
+      "bytes": 33584,
+      "sha256": "0b252c8390176710358d77c8d0150036df22d9ffc995e5b70a2e0e3612564c21",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260521_113910.json",
+      "kind": "raw-session-json",
+      "bytes": 34891,
+      "sha256": "3836cc0dec4c3d31281422e425456cdec5e0cab179ddc93137067e0901aee027",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_20260502_214222_e848b947.json",
+      "kind": "raw-session-json",
+      "bytes": 409238,
+      "sha256": "d3d8bf8fe4b7cb1c3c5a5ecd7deedd257a3803237708ba9e79a89563ee7b926b",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260504_034256.json",
+      "kind": "raw-session-json",
+      "bytes": 27674,
+      "sha256": "db00dee63ea61a984f302ee804e19d38bd835a47938d48ad7956c50dd9d611fe",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_20260502_002118_16ca95.json",
+      "kind": "raw-session-json",
+      "bytes": 208095,
+      "sha256": "68a80634aed151e6dccd4e37ebb146ca05de2a3c0433d52579c84efb90178309",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_20260502_225146_2d929b.json",
+      "kind": "raw-session-json",
+      "bytes": 359398,
+      "sha256": "3fb591653d1bd3005591077ee0566c8826da167dacdbba4a242eb2111e125eca",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260519_134556.json",
+      "kind": "raw-session-json",
+      "bytes": 45656,
+      "sha256": "7994c4eb70e3766eb041f46ced06398479515c2fbdabf8c6b3d3ac1dd0caac8e",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/sessions-json/session_cron_2a1394e31196_20260504_220504.json",
+      "kind": "raw-session-json",
+      "bytes": 35828,
+      "sha256": "435d0e8755a49026f3d47a113c8684b2e1acdaa720f0ae2f7b91c0dc6b1061a7",
+      "note": "Hermes raw session JSON copied from ~/.hermes/sessions"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/session-db/hermes.db.thread-search.txt",
+      "kind": "db-search-export",
+      "bytes": 43,
+      "sha256": "29f3094ff34370018bfce4122f5e08fb1dd53193546ece441ad9ff1025ff1896",
+      "note": "Keyword export from hermes.db"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/session-db/state.db.thread-search.txt",
+      "kind": "db-search-export",
+      "bytes": 1961420,
+      "sha256": "cd7dc3fb262ed4f453cf8a906f7f56049aac2a527df62641bf05a2a00539ce93",
+      "note": "Keyword export from state.db"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/logs/agent.log.thread-1499796593535221961.log",
+      "kind": "raw-log-extract",
+      "bytes": 3331,
+      "sha256": "7a56b37ffb3171820f112eced327b65d243e6f9b72ed10e98deb380ceb8faf4f",
+      "note": "Lines from /Users/chao/.hermes/logs/agent.log"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/logs/agent.log.2.thread-1499796593535221961.log",
+      "kind": "raw-log-extract",
+      "bytes": 1869,
+      "sha256": "80cf45a7d4b7a5ab54b229232e27908dea9e72a83595d9b5a41d6fde61be59fd",
+      "note": "Lines from /Users/chao/.hermes/logs/agent.log.2"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/logs/agent.log.3.thread-1499796593535221961.log",
+      "kind": "raw-log-extract",
+      "bytes": 13857,
+      "sha256": "e07a65ca5045794d5bde2399de73310175b0c28257c07a2e77fa47b749ca32f3",
+      "note": "Lines from /Users/chao/.hermes/logs/agent.log.3"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/raw/logs/gateway.log.thread-1499796593535221961.log",
+      "kind": "raw-log-extract",
+      "bytes": 4890,
+      "sha256": "5885b706b6c20ba6a77163ee5054847b4f56281dfad650dc0019a636c4409fd8",
+      "note": "Lines from /Users/chao/.hermes/logs/gateway.log"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/derived/indexes/related-files-index.md",
+      "kind": "related-file-index",
+      "bytes": 10668,
+      "sha256": "25554ed4a56f5d9c237640bbf02784653ee18fa76d9a94d9ae4ffecf9f0a453a",
+      "note": "102 related files"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/derived/thread-transcript-local.md",
+      "kind": "readable-transcript",
+      "bytes": 1113762,
+      "sha256": "138acfdcce088c27123484f4293d348028d182076e70682464a8983240ec5cbd",
+      "note": "Readable transcript from local Hermes session JSON"
+    },
+    {
+      "path": "/Users/chao/projects/communication-governance-playbook/archive/thread-1499796593535221961/derived/frameworks/framework-inventory.md",
+      "kind": "framework-inventory",
+      "bytes": 1191,
+      "sha256": "dfd0a3f98b92c2cda38d607a780f7151128ba1408e94bad858f49f43cfe878d7",
+      "note": "Human-readable inventory"
+    }
+  ]
+}
