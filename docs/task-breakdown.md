@@ -80,6 +80,7 @@
 - `clarification` 文档契约
 - `task breakdown` 文档契约
 - `MRD` 文档契约
+- `PRD` 文档契约
 - `BMaD handoff` 文档契约
 
 ### Core Questions

@@ -1,12 +1,21 @@
 # PRD
 
-Status: DRAFT  
-Stage: PRD  
+Status: PRE_DRAFT  
+Stage: PRD_PREP  
 Depends on:
 
 - `docs/mrd.md`
 - `docs/task-breakdown.md`
 - `docs/tech-stack-options.md`
+
+## 0. 这份文档当前的定位
+
+这份文档现在已经不是空占位，但也还不是“正式进入 PRD 阶段后的定稿”。
+
+更准确地说：
+
+> 它是一个 `PRD pre-draft`，用于提前整理实现边界，
+> 但当前官方阶段仍应以 `MRD` 通过为准。
 
 ## 1. Product Scope
 
@@ -26,6 +35,7 @@ Depends on:
 - 阻断非法切阶段
 - 记录批准和阻断原因
 - 让用户始终知道当前允许做什么
+- 让这个系统在开发自己时，也受同样的 workflow 约束
 
 ## 3. Target User
 
@@ -128,6 +138,16 @@ Depends on:
 - 当前绑定文档
 - 下一步允许动作
 - 当前阻断原因
+
+### 6.5 Self-Dogfooding
+
+系统在开发自己时，也必须按同样的 phase order 和 document gate 运行。
+
+第一版至少要支持下面这个事实：
+
+- 当前 repo 自己也能被标记为 `goal / clarification / task_breakdown / mrd / prd / bmad`
+- 自己的文档也要被 gate 检查
+- 自己也不能在 `PRD` 之前直接进入实现
 
 ## 7. Transition Requirements
 
@@ -263,6 +283,7 @@ Depends on:
 3. 未批准推进
 4. 未经允许改 `Next`
 5. 无法解释当前状态
+6. 在本项目自身开发流程中跳过 `MRD / PRD` 直接进入实现
 
 第一版每次阻断都必须给出稳定 reason code。
 
@@ -294,6 +315,7 @@ Depends on:
 4. 用户在未批准时无法进入下一阶段
 5. 合法路径可以从 `goal` 一路推进到 `bmad`
 6. 所有 block 都有明确 reason code
+7. 当前这个 repo 自己也能被同一套 workflow 约束，不需要额外人工约定
 
 ## 14. Out of Scope
 
@@ -305,7 +327,17 @@ Depends on:
 - SaaS 平台化
 - 自动生成整套产品内容
 
-## 15. Open Questions
+## 15. Current Gate
+
+这份 `PRD pre-draft` 当前还不能单独把项目推进到开发阶段。
+
+它现在的作用是：
+
+1. 帮助补强 `MRD`
+2. 提前暴露实现边界问题
+3. 为 `MRD` 通过后的正式 `PRD` 成稿做准备
+
+## 16. Open Questions
 
 1. 第一版批准动作是否需要保留固定口令语义
 2. `Next` 是独立字段，还是直接绑定在 phase state 里
