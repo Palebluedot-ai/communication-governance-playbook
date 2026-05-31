@@ -49,7 +49,7 @@
    - 文件：`docs/tech-stack-options.md`
 6. `MRD / PRD 关系说明`
    - 文件：`docs/mrd-prd-relationship.md`
-7. `MRD 第一版草稿`
+7. `MRD 可审阅版`
    - 文件：`docs/mrd.md`
 8. `PRD 第一版草稿`
    - 文件：`docs/prd.md`

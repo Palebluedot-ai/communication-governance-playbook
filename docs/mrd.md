@@ -1,6 +1,6 @@
 # MRD
 
-Status: DRAFT  
+Status: READY_FOR_REVIEW  
 Stage: MRD  
 Depends on:
 
@@ -18,6 +18,18 @@ Depends on:
 一句话定义：
 
 一个把 AI 协作里的“防漂移”做成强约束 workflow 的控制系统。
+
+## 1.5 Approval Intent
+
+这份 `MRD` 现在的目标，不再只是“把想法记下来”，
+而是进入一个可以被审阅、可以被拍板的状态。
+
+这意味着它至少要回答清楚 4 件事：
+
+1. 这个产品到底解决什么问题
+2. 第一版只做什么，不做什么
+3. 为什么先这样做，而不是一开始做大
+4. 批准之后，下一阶段应该如何进入 `PRD`
 
 ## 2. Problem Statement
 
@@ -66,6 +78,16 @@ Depends on:
 - 经常冒出新的想法
 - 希望 AI 更像架构师，而不只是顺着聊的执行器
 
+## 4.5 First Operating Context
+
+第一版不是先做“给所有人都能直接上手”的 SaaS。
+
+第一运行场景更明确：
+
+- 你自己在本地 repo 里和 AI 协作
+- 先把单线程、单 owner、单 repo 的约束跑顺
+- 后面再决定怎么扩到多 thread、跨 channel、跨设备
+
 ## 5. Core Value Proposition
 
 这个产品第一版提供的核心价值不是“更会聊天”，而是：
@@ -92,6 +114,7 @@ Depends on:
 - 强阶段控制
 - 强文档门禁
 - 审计当前状态与历史切换
+- 开发本项目自己时也受同一套门禁约束
 
 ### Out of Scope
 
@@ -102,6 +125,16 @@ Depends on:
 - Discord / Hermes / Cloud DROID 深接入
 - SaaS 形态
 - 自动生成整份 MRD / PRD 内容
+
+## 6.5 Narrowest Wedge
+
+第一版最小楔子，不是“做完全部协议系统”，
+而是先把下面这条主线做成可执行：
+
+> 用户在单个 repo 内，必须按 `Global Goal -> 需求澄清 -> 开发任务拆解 -> MRD -> PRD -> BMaD` 前进；
+> 缺文档、乱切阶段、越过门禁时，系统能明确阻断并说明原因。
+
+只要这条最小主线跑通，这个产品就已经具备了第一性验证价值。
 
 ## 7. Core Workflow
 
@@ -114,6 +147,7 @@ Depends on:
 - 未完成当前阶段，不能进入下一阶段
 - 没有通过文档，不能切阶段
 - 没有显式批准，不能偷偷改 `Next`
+- 当前项目在开发自己时，也不能绕过这套规则
 
 ## 8. Product Thesis
 
@@ -125,6 +159,15 @@ Depends on:
 
 > 把阶段控制、文档门禁和 drift blocking 做成一个最小但强执行的 workflow engine。
 
+## 8.5 Non-Negotiables
+
+下面这些是第一版不能退让的原则：
+
+1. 先有边界，再有扩展
+2. 先有阶段门禁，再有自动化能力
+3. 先把当前状态说清，再允许推进下一步
+4. 先让系统能约束自己，再谈约束别的项目
+
 ## 9. Success Criteria
 
 第一版成功至少满足：
@@ -135,6 +178,15 @@ Depends on:
 4. 用户能看到当前状态、当前阻断原因、下一步允许动作
 5. 本地文档和状态能支持冷启动接力
 6. 这个系统在开发自己时，也能按同样的阶段门禁运行，不靠人工记忆维持主线
+
+## 9.5 Approval Gate
+
+这份 `MRD` 通过之前，不应该发生下面这些动作：
+
+1. 把 `PRD pre-draft` 当成正式 `PRD`
+2. 进入 `BMaD` 开发
+3. 开始实现 runtime / state / command / guard 代码
+4. 提前做平台接入和多端扩展
 
 ## 10. Risks
 
@@ -150,6 +202,11 @@ Depends on:
 
 把实现写得太重，反而延迟第一版验证。
 
+### Risk 4
+
+产品口头上承诺“防漂移”，
+但开发它自己的过程仍然靠人工记忆兜底，导致产品承诺和开发现实脱节。
+
 ## 11. Dependencies
 
 第一版依赖：
@@ -164,6 +221,7 @@ Depends on:
 1. 第一版是否需要 `PRD` 通过后才能允许 `bmad start`
 2. 第一版的“批准”是纯手动命令，还是要保留固定口令语义
 3. 第一版的文档契约字段，是轻量版还是直接承接旧协议里的固定字段
+4. `Next` 是否应该作为独立对象建模，而不只是 phase state 的一个属性
 
 ## 13. Self-Dogfooding Requirement
 
@@ -190,3 +248,11 @@ Depends on:
 - 再把现有 `PRD pre-draft` 转成正式 `PRD`
 - 但先不要进入开发
 - 先把 `workflow / state / command / guard` 的产品要求写清
+
+## 15. Proposed Approval Statement
+
+如果这份 `MRD` 通过，建议批准语句固定为：
+
+> 同意本项目按这份 `MRD` 进入 `PRD` 阶段；
+> 当前第一版目标锁定为“单 repo / 单 owner / 本地优先 / 强阶段控制”的防漂移 workflow engine；
+> 未经新的显式批准，不扩展到平台接入、多角色权限或 SaaS 形态。
