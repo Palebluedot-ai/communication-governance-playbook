@@ -153,6 +153,8 @@
 - `task-breakdown approve`
 - `mrd start`
 - `mrd approve`
+- `prd start`
+- `prd approve`
 - `bmad start`
 - `status show`
 - `transition explain`
@@ -233,6 +235,7 @@
 6. Guard Rules
 7. Testing Strategy
 8. 再进入 MRD
+9. MRD 通过后进入 PRD
 
 ## 这一阶段的完成标准
 
@@ -241,4 +244,4 @@
 1. 任务块边界明确
 2. 第一版范围明确
 3. 技术方向锁定
-4. 可以进入 MRD，而不会再回到“到底做什么”的空转
+4. 可以进入 MRD / PRD，而不会再回到“到底做什么”的空转
