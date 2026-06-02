@@ -53,6 +53,12 @@
    - 文件：`docs/mrd.md`
 8. `PRD 第一版草稿`
    - 文件：`docs/prd.md`
+9. `产品边界文档`
+   - 文件：`docs/product-boundary-v1.md`
+10. `对话状态机文档`
+   - 文件：`docs/conversation-state-machine-v1.md`
+11. `source of truth 映射`
+   - 文件：`docs/source-of-truth-map.md`
 
 ## 4. 当前阶段的目标是什么
 
@@ -87,8 +93,9 @@
 按当前主线，下一步最合理的是：
 
 1. 继续补强并确认 `MRD`
-2. 把 `PRD pre-draft` 转成正式 `PRD`
-3. 再进入 BMaD 开发
+2. 基于新补齐的 canonical docs，收口 `PRD`
+3. 把 `PRD pre-draft` 转成正式 `PRD`
+4. 再进入 BMaD 开发
 
 ## 7. 这个系统能不能在开发自己时也不漂移
 

@@ -7,6 +7,9 @@ Depends on:
 - `docs/mrd.md`
 - `docs/task-breakdown.md`
 - `docs/tech-stack-options.md`
+- `docs/product-boundary-v1.md`
+- `docs/conversation-state-machine-v1.md`
+- `docs/source-of-truth-map.md`
 
 ## 0. 这份文档当前的定位
 
@@ -149,6 +152,16 @@ Depends on:
 - 自己的文档也要被 gate 检查
 - 自己也不能在 `PRD` 之前直接进入实现
 
+### 6.6 Source of Truth Visibility
+
+系统必须能区分：
+
+- 当前 canonical 文档
+- imported 上游材料
+- archive 归档材料
+
+并且不能把 imported / archive 自动当成当前真相。
+
 ## 7. Transition Requirements
 
 ### 7.1 Allowed Transitions
@@ -177,6 +190,16 @@ Depends on:
 - reason code
 - 一句可读解释
 - 当前允许动作
+
+### 7.4 Continue vs Transition Semantics
+
+第一版必须明确区分：
+
+- `continue_phase`
+- `request_transition`
+- `perform_transition`
+
+否则系统会重新退化成“顺着对话惯性推进”。
 
 ## 8. Document Contract Requirements
 
@@ -218,6 +241,14 @@ Depends on:
 - command contract
 - block 规则
 - 验收标准
+
+### 8.5 Canonical Supporting Docs
+
+第一版 `PRD` 还必须引用并继承下面这些上游文档：
+
+- `product-boundary-v1.md`
+- `conversation-state-machine-v1.md`
+- `source-of-truth-map.md`
 
 ## 9. CLI Command Requirements
 
@@ -274,6 +305,14 @@ Depends on:
 - block history
 - 当前 next action
 
+### 10.4 Historical Material Handling
+
+第一版实现时必须支持一个明确规则：
+
+- `docs/` 是当前真相层
+- `imported/` 是承接层
+- `archive/` 是证据层
+
 ## 11. Guard Requirements
 
 第一版 guard 至少要覆盖：
@@ -284,6 +323,7 @@ Depends on:
 4. 未经允许改 `Next`
 5. 无法解释当前状态
 6. 在本项目自身开发流程中跳过 `MRD / PRD` 直接进入实现
+7. source-of-truth 冲突未收口就继续推进
 
 第一版每次阻断都必须给出稳定 reason code。
 

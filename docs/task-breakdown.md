@@ -69,6 +69,13 @@
 - 哪些动作算“继续当前阶段”
 - 哪些动作算“切阶段”
 
+### Current Canonical Docs
+
+当前已开始沉淀到：
+
+- `docs/development-workflow.md`
+- `docs/conversation-state-machine-v1.md`
+
 ## Workstream 2：Document Contract
 
 ### Why
@@ -89,6 +96,15 @@
 - 什么叫“文档存在”
 - 什么叫“文档通过”
 - 文档变更是否会影响当前阶段锁
+
+### Current Canonical Docs
+
+当前已开始沉淀到：
+
+- `docs/product-boundary-v1.md`
+- `docs/source-of-truth-map.md`
+- `docs/mrd.md`
+- `docs/prd.md`
 
 ## Workstream 3：State Model
 
@@ -235,8 +251,8 @@
 5. CLI Workflow Commands
 6. Guard Rules
 7. Testing Strategy
-8. 再进入 MRD
-9. MRD 通过后进入 PRD
+8. 把以上内容收口进正式 `PRD`
+9. `PRD` 通过后进入 `BMaD`
 
 ## 这一阶段的完成标准
 

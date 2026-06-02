@@ -66,6 +66,7 @@
 4. 技术方向选定为 `方案 B：状态机驱动的 Workflow Engine`
 5. 已新增 `MRD / PRD` 关系文档、`MRD` 当前可审阅版、`PRD` 第一版草稿
 6. `MRD` 正在以“待批准”状态收口，还没有正式切到 `PRD`
+7. 历史聊天里的有效规则，正在被收口成 `product boundary`、`state machine`、`source of truth` 这三类 canonical 文档
 
 ## 当前明确还没做的事
 
